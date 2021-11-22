@@ -1,0 +1,384 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  .Top {
+    background: url(images/image2\ \(1\).png) no-repeat  center ;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 680px
+  }
+  
+  
+  .box {
+    box-sizing: border-box;
+    background: rgb(0, 0, 0, 0.5);
+    height: 120px;
+  }
+  
+  .Heading {
+    margin-left:  20px;
+    margin-top: 30px;
+  }
+  .Head {
+    color: #F19201;
+    font-size: 30px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none; 
+    justify-content: space-between;
+    width: 55%;  
+    float: right;
+    margin-top: -60px;
+  }
+  .active {
+    color: #F19201;
+  }
+  .button {
+    background-color: #F19201;
+    font-size: 20px;
+  }
+  .Text {
+    color: white;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 18px;
+  }
+  .Text Button {
+    background-color:#F19201;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  /*Services*/
+  .services {
+    background-color: lightgray;
+    padding-top: 20px;
+  }
+  .heading h2 {
+    color: #F19201;
+    text-align: center;
+    font-size: 30px;
+  }
+  .heading p {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .First {
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 25%;
+    height: 300px;
+    background-color: white;
+    padding-top: 25px;
+  }
+  .Second {
+    float: auto;
+    flex: right;
+    margin-left: 550px;
+    margin-top: -325px;
+    width: 25%;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    padding-top: 25px
+  }
+  .Third {
+    margin-left: 1000px;
+    margin-top: -325px;
+    width: 25%;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+  }
+  .One {
+    color: white;
+    background-color: #F19201;
+    border-radius: 50%;
+    width: 40px;
+    height: 10%;
+    text-align: center;
+    margin-left: 170px;
+    padding-top: 15px;
+  }
+  .First h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  .First p {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+  }
+  .Two {
+    color: white;
+    background-color: #F19201;
+    border-radius: 50%;
+    width: 40px;
+    height: 10%;
+    text-align: center;
+    margin-left: 160px;
+    padding-top: 15px;
+    padding-bottom: -10px;
+  
+  }
+  .Second h3 {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  .Second p {
+    font-style: italic;
+    font-size: 20px;
+  }
+  .Three {
+    color: white;
+    background-color: #F19201;
+    border-radius: 50%;
+    width: 40px;
+    height: 10%;
+    text-align: center;
+    margin-left: 170px;
+    padding-top: 10px
+  }
+  .Third h3 {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  .Third p {
+    font-style: italic;
+    font-size: 20px;
+  }
+  
+  /*Reviews*/
+  .Views img {
+    height: 600px;
+    margin-top: 100px;
+  }
+  
+  .Views h4 {
+    color: white;
+    margin-left: 1000px;
+    margin-top: -600px;
+    font-size: 50px;
+    padding-top: 50px;
+  }
+  .Views h5 {
+    color: white;
+    margin-left: 1000px;
+    font-size: 30px;
+  }
+  .Views p{
+    color: white;
+    margin-left: 700px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .Views h6 {
+    color: white;
+    margin-left: 1040px;
+    font-size: 25px;
+  }
+  .reviews {
+    background-color: black;
+    margin-top: -100px;
+    height: 600px;
+    width: 1495px ;
+    padding-top: -600px;
+  
+  }
+  
+  /* Menu*/
+  .menu h2 {
+    color: #F19201;
+    text-align: center;
+    font-size: 40px;
+  }
+  .menu p {
+    text-align: center;
+    font-style:italic;
+    font-size: 20px;
+  }
+  
+  .chapati img {
+    height: 300px;
+    margin-left: -5px;
+    margin-top: 50px;
+  }
+  .chapati h2 {
+    margin-top: -280px;
+    margin-left: 200px;
+    color: black;
+  }
+  .chapati p {
+    margin-left: 300px;
+  }
+  .chapati h4 {
+    margin-left: 340px;
+    color: #F19201;
+    font-size: 25px;
+  }
+  .chapati button {
+    margin-left: 340px;
+    background-color: lightgray;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .chapati {
+    background-color: rgb(247, 247, 247);
+    height: 380px;
+    width: 40%;
+    padding-left: 50px; 
+    margin-left: 50px;
+  }
+  .chicken img {
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .chicken h2 {
+    margin-top: -280px;
+    margin-left: 300px;
+    color: black;
+  }
+  .chicken p {
+    margin-left: 300px;
+  }
+  .chicken h4 {
+    margin-left: 340px;
+    color: #F19201;
+    font-size: 25px;
+  }
+  .chicken button {
+    margin-left: 340px;
+    background-color: lightgray;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .chicken {
+    background-color: rgb(247, 247, 247);
+    height: 380px;
+    width: 40%;
+    padding-left: 50px; 
+    margin-left: 50px;
+    margin-top: 50px;
+  } 
+  
+  
+  .beef img {
+    height: 300px;
+    padding: 40px;
+    margin-left:0px;
+    margin-top: -810px;
+    display: flex;
+    }
+    .beef h2 {
+      color: black;
+      margin-left: 300px;
+      margin-top: -300px;
+    }
+    .beef p {
+      margin-left: 350px;
+    }
+    .beef h4 {
+      margin-left: 360px;
+      font-size: 25px;
+      color: #F19201;
+    }
+    .beef button {
+      border: none;
+      color: white;
+      margin-left: 360px;
+      font-size: 20px;
+      background-color: lightgray;
+    }
+    .beef {
+      background-color: rgb(247, 247, 247);
+      width: 600px;
+      height: 380px;
+      margin-left: 850px;
+      margin-top: -300px;
+      padding-top: -700px;
+    }
+    .Rice {
+      background-color: rgb(247, 247, 247);
+      width: 40%;
+      margin-left: 850px;
+      margin-top:50px;
+      padding-top: 255px;
+      height: 127px;
+    }
+  
+  .Rice img {
+    display: inline-block;
+    height: 300px;
+    width:300px;
+    margin-left: 30px;
+    margin-top: -220px;
+  }
+  .Rice h2 {
+    color: black;
+    margin-left: 260px;
+    margin-top: -300px;
+  }
+  .Rice p {
+    margin-left: 330px;
+  }
+  .Rice h4 {
+    margin-left: 350px;
+      font-size: 25px;
+      color: #F19201;
+  }
+  .Rice button {
+    border: none;
+      color: white;
+      margin-left:350px;
+      font-size: 20px;
+      background-color: lightgray;
+      text-decoration-color:none;
+  }
+  /*Booking*/
+  #Booking {
+    background-image: url(images/image8.png);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: white;
+  }
+  #Booking h4 {
+    padding: 120px;
+    font-size: 30px;
+  }
+  #Booking h5 {
+    margin-top: -100px;
+    font-size: 35px;
+  }
+  #Booking button {
+    background-color: transparent;
+    color: white;
+  }
+  .footer {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    padding-top:25px;
+  }
+  #copyright {
+    color: white;
+  }
